@@ -16,7 +16,7 @@ spec:
         kind: DatabaseInstance
         spec:
           forProvider:
-            databaseVersion: POSTGRES_13
+            databaseVersion: POSTGRES_13 # comment
             deletionProtection: false
             region: us-west1
             settings:
